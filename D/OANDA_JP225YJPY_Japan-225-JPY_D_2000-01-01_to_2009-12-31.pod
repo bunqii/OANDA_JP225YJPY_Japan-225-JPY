@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "JP225Y_JPY",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_JP225YJPY_Japan-225-JPY_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_JP225YJPY_Japan-225-JPY_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1743,
+  "first_candle": {
+    "time": 1047592800,
+    "Time": "2003-03-13T22:00:00.000000000Z",
+    "open": 8195.1,
+    "high": 8235.7,
+    "low": 8118.1,
+    "close": 8153.8,
+    "volume": 104
+  },
+  "last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 10632.8,
+    "high": 10663.0,
+    "low": 10573.6,
+    "close": 10613.4,
+    "volume": 154
+  },
+  "csv_file": "OANDA_JP225YJPY_Japan-225-JPY_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1743,
+  "csv_first_candle": {
+    "time": 1047592800,
+    "Time": "2003-03-13T22:00:00.000000000Z",
+    "open": 8195.1,
+    "high": 8235.7,
+    "low": 8118.1,
+    "close": 8153.8,
+    "volume": 104
+  },
+  "csv_last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 10632.8,
+    "high": 10663.0,
+    "low": 10573.6,
+    "close": 10613.4,
+    "volume": 154
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T23:57:50.000000000Z",
+  "generated_at": "2026-10-16T23:57:50.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-03-13T22:00:00Z",
+        "to": "2016-11-19T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
