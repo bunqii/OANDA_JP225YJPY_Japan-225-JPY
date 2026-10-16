@@ -1,0 +1,95 @@
+{
+  "pod_version": "4.0",
+  "instrument": "JP225Y_JPY",
+  "granularity": "M1",
+  "chunk_start": "2003-03-01",
+  "chunk_end": "2003-03-31",
+  "parquet_file": "OANDA_JP225YJPY_Japan-225-JPY_1_2003-03-01_to_2003-03-31.parquet",
+  "data_file": "OANDA_JP225YJPY_Japan-225-JPY_1_2003-03-01_to_2003-03-31.parquet",
+  "row_count": 1091,
+  "first_candle": {
+    "time": 1047564000,
+    "Time": "2003-03-13T14:00:00.000000000Z",
+    "open": 8110.2,
+    "high": 8110.2,
+    "low": 8110.2,
+    "close": 8110.2,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1049145240,
+    "Time": "2003-03-31T21:14:00.000000000Z",
+    "open": 8077.6,
+    "high": 8077.6,
+    "low": 8077.6,
+    "close": 8077.6,
+    "volume": 1
+  },
+  "csv_file": "OANDA_JP225YJPY_Japan-225-JPY_1_2003-03-01_to_2003-03-31.parquet",
+  "csv_row_count": 1091,
+  "csv_first_candle": {
+    "time": 1047564000,
+    "Time": "2003-03-13T14:00:00.000000000Z",
+    "open": 8110.2,
+    "high": 8110.2,
+    "low": 8110.2,
+    "close": 8110.2,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1049145240,
+    "Time": "2003-03-31T21:14:00.000000000Z",
+    "open": 8077.6,
+    "high": 8077.6,
+    "low": 8077.6,
+    "close": 8077.6,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T23:55:55.000000000Z",
+  "generated_at": "2026-10-16T23:55:55.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2483,
+    "chunk_api_blocks": 6,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-03-13T14:00:00Z",
+        "to": "2003-03-17T01:20:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-03-17T01:20:00Z",
+        "to": "2003-03-20T12:40:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-03-20T12:40:00Z",
+        "to": "2003-03-24T00:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-03-24T00:00:00Z",
+        "to": "2003-03-27T11:20:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-03-27T11:20:00Z",
+        "to": "2003-03-30T22:40:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-03-30T22:40:00Z",
+        "to": "2003-04-03T10:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
